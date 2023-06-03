@@ -26,7 +26,7 @@ jobs:
       - name: "Get NeoLoad project"
         run: >
           rm -f *.yml;
-          wget https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/tests/neoload_projects/simpledemo.yml
+          wget https://raw.githubusercontent.com/elfridge/neoload-examples/main/simpledemo-source.yml
 
       - name: "Prepare NeoLoad test"
         run: >
